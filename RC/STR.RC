@@ -1,0 +1,35 @@
+#include "..\INC\str.inc"
+
+STRINGTABLE LOADONCALL MOVEABLE DISCARDABLE
+ BEGIN
+
+   SYSTOOLHINT_SETUP_UCS,       "Rotate axes"
+   SYSTOOLHINT_SHIFT000,        "Shift axes"
+   SYSTOOLHINT_SCALE_VIEW_DOWN, "Scale view down"
+   SYSTOOLHINT_SCALE_VIEW_UP,   "Scale view up"
+   SYSTOOLHINT_FIT_TO_ZOOM,     "Fit to zoom"
+   SYSTOOLHINT_FIT_TO_WINDOW,   "Fit to window"
+   SYSTOOLHINT_HOLD,            "Hold scena"
+   SYSTOOLHINT_FETCH,           "Fetch scena"
+   SYSTOOLHINT_CREATE,          "Create new body"
+   SYSTOOLHINT_MOVE,            "Move"
+   SYSTOOLHINT_ROTATE,          "Rotate"
+   SYSTOOLHINT_SC2D,            "Scale from view"
+   SYSTOOLHINT_SC3D,            "3D scale"
+   SYSTOOLHINT_DELETE,          "Delete"
+
+   SYSTOOLHINT_SELECT           "Select body"
+   SYSTOOLHINT_SELECTWIN        "Select body by window"
+   SYSTOOLHINT_INVERTSELMODE    "Select/unselect mode"
+
+   SYSTOOLHINT_COPY             "Copy to clipboard"
+   SYSTOOLHINT_CUT              "Copy and cut to clipboard"
+   SYSTOOLHINT_PASTE            "Paste from clipboard"
+
+   SYSTOOLHINT_CONECT           "Selected act as a whole"
+   SYSTOOLHINT_GROUP            "Selected repeat as selected body"
+
+   SYSTOOLHINT_USE_BASEUCS      "Use base viewport or object UCS"
+
+ END
+

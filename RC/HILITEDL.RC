@@ -1,0 +1,10 @@
+#if !defined(_HILITE_BMP_)
+#define _HILITE_BMP_
+
+#include "..\INC\hilitedl.inc"
+
+ID_HILITEDLG_BITMAP  BITMAP "..\IMAGES\hilitedl.bmp"
+
+#endif
+
+

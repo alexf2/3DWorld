@@ -1,0 +1,61 @@
+#if !defined(_BPDLG_BITMAP_BMP_)
+#define _BPDLG_BITMAP_BMP_
+
+#include "..\INC\bpdlgbmp.inc"
+
+
+BPDLGBMP_POINT_N              BITMAP "..\IMAGES\point_n.bmp"
+BPDLGBMP_POINT_H              BITMAP "..\IMAGES\point_h.bmp"
+BPDLGBMP_POINT_S              BITMAP "..\IMAGES\point_s.bmp"
+
+BPDLGBMP_VERTEX_N             BITMAP "..\IMAGES\vert_n.bmp"
+BPDLGBMP_VERTEX_H             BITMAP "..\IMAGES\vert_h.bmp"
+BPDLGBMP_VERTEX_S             BITMAP "..\IMAGES\vert_s.bmp"
+
+BPDLGBMP_BODY_N               BITMAP "..\IMAGES\body_n.bmp"
+BPDLGBMP_BODY_H               BITMAP "..\IMAGES\body_h.bmp"
+BPDLGBMP_BODY_S               BITMAP "..\IMAGES\body_s.bmp"
+
+BPDLGBMP_CANCEL_N             BITMAP "..\IMAGES\canc_n.bmp"
+BPDLGBMP_CANCEL_H             BITMAP "..\IMAGES\canc_h.bmp"
+BPDLGBMP_CANCEL_S             BITMAP "..\IMAGES\canc_s.bmp"
+
+BPDLGBMP_TOPLEFT_N            BITMAP "..\IMAGES\tleft_n.bmp"
+BPDLGBMP_TOPLEFT_H            BITMAP "..\IMAGES\tleft_h.bmp"
+BPDLGBMP_TOPLEFT_S            BITMAP "..\IMAGES\tleft_s.bmp"
+
+BPDLGBMP_TOP_N                BITMAP "..\IMAGES\top_n.bmp"
+BPDLGBMP_TOP_H                BITMAP "..\IMAGES\top_h.bmp"
+BPDLGBMP_TOP_S                BITMAP "..\IMAGES\top_s.bmp"
+
+BPDLGBMP_TOPRIGHT_N           BITMAP "..\IMAGES\tright_n.bmp"
+BPDLGBMP_TOPRIGHT_H           BITMAP "..\IMAGES\tright_h.bmp"
+BPDLGBMP_TOPRIGHT_S           BITMAP "..\IMAGES\tright_s.bmp"
+
+BPDLGBMP_LEFT_N               BITMAP "..\IMAGES\left_n.bmp"
+BPDLGBMP_LEFT_H               BITMAP "..\IMAGES\left_h.bmp"
+BPDLGBMP_LEFT_S               BITMAP "..\IMAGES\left_s.bmp"
+
+BPDLGBMP_CENTER_N             BITMAP "..\IMAGES\center_n.bmp"
+BPDLGBMP_CENTER_H             BITMAP "..\IMAGES\center_h.bmp"
+BPDLGBMP_CENTER_S             BITMAP "..\IMAGES\center_s.bmp"
+
+BPDLGBMP_RIGHT_N              BITMAP "..\IMAGES\right_n.bmp"
+BPDLGBMP_RIGHT_H              BITMAP "..\IMAGES\right_h.bmp"
+BPDLGBMP_RIGHT_S              BITMAP "..\IMAGES\right_s.bmp"
+
+BPDLGBMP_BOTTOMLEFT_N         BITMAP "..\IMAGES\bleft_n.bmp"
+BPDLGBMP_BOTTOMLEFT_H         BITMAP "..\IMAGES\bleft_h.bmp"
+BPDLGBMP_BOTTOMLEFT_S         BITMAP "..\IMAGES\bleft_s.bmp"
+
+BPDLGBMP_BOTTOM_N             BITMAP "..\IMAGES\bottom_n.bmp"
+BPDLGBMP_BOTTOM_H             BITMAP "..\IMAGES\bottom_h.bmp"
+BPDLGBMP_BOTTOM_S             BITMAP "..\IMAGES\bottom_s.bmp"
+
+BPDLGBMP_BOTTOMRIGHT_N        BITMAP "..\IMAGES\bright_n.bmp"
+BPDLGBMP_BOTTOMRIGHT_H        BITMAP "..\IMAGES\bright_h.bmp"
+BPDLGBMP_BOTTOMRIGHT_S        BITMAP "..\IMAGES\bright_s.bmp"
+
+
+#endif
+

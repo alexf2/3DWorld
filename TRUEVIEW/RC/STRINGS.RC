@@ -1,0 +1,29 @@
+#include "..\INC\errors.inc"
+
+STRINGTABLE  LOADONCALL MOVEABLE PURE DISCARDABLE
+BEGIN
+  ID_ICON_LOAD,        "Error loading of icon"
+
+  ID_INVALIDCLIENT,    "Invalid client field"
+  ID_INVALIDMAINWINDOW,"Invalid main window"
+  ID_INVALIDMODULE,    "Ivalid module"
+  ID_INVALIDWINDOW,    "Invalid window"
+  ID_OUTOFMEMORY,      "No more memory"
+
+  ID_CREATE_BRUSH,     "Cann't create user brush"
+  ID_GET_DC,           "GetDC cann't create device context"
+
+  ID_FILEIO,           "I/O error"
+
+  ID_BITMAP_INVALID,          "Bad bitmap file format"
+  ID_BITMAP_NONWINDOWS,       "Bitmap file not Windows format"
+  ID_BITMAP_NOTSUPPORT_FORMAT,"RLE compressed or Windows NT bitmap file"
+
+  ID_CREATEOBJECT, "Object creation failed"
+
+  ID_BITMAPLOAD, "Cann't load bitmap from resource"
+  ID_CURSORLOAD, "Cann't load cursor from resource"
+
+  ID_CREATESURF, "No more memory for create new surface"
+
+END

@@ -1,0 +1,10 @@
+#if !defined(_MDIBMP_BMP_)
+#define _MDIBMP_BMP_
+
+#include "..\INC\mdchbmp.inc"
+
+MDIBMP_MASK                   BITMAP  "..\IMAGES\mask.bmp"
+MDIBMP_MASK2                  BITMAP  "..\IMAGES\mask2.bmp"
+BKGNDBMP                      BITMAP  "..\IMAGES\bkgnd.bmp"
+
+#endif

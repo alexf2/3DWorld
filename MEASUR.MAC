@@ -1,0 +1,48 @@
+#if !defined(_MEASURE_RECALC_)
+#define _MEASURE_RECALC_
+
+#define RX(x) (double(x)*1.75)
+#define RY(y) (double(y)*1.63)
+
+#include <owl.h>
+
+#undef _EXPORT2
+#if defined(_MEASURDLL) || defined(_ALLLIBDLL)
+  #define _EXPORT2 _export
+#else
+  #define _EXPORT2 _CLASSTYPE
+#endif
+
+#undef _EXPFUNC2
+#if defined(_MEASURDLL) || defined(_ALLLIBDLL)
+  #define _EXPFUNC2 _export
+#else
+  #define _EXPFUNC2 _EXPFUNC
+#endif
+
+
+_CLASSDEF(TMeasur)
+
+class  _EXPORT2 TMeasur
+ {
+public:
+  TMeasur()
+   {
+     Init();
+   }
+
+  int Rx( int const xInDialogUnits ) const;
+  int Ry( int const  yInDialogUnits ) const;
+
+  void Init()
+   {
+     widDlg = LOWORD(GetDialogBaseUnits());
+     highDlg = HIWORD(GetDialogBaseUnits());
+   }
+
+private:
+  WORD  widDlg, highDlg;
+
+ };
+
+#endif

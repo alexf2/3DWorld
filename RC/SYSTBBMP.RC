@@ -1,0 +1,76 @@
+#if !defined(_SYSTOOL_BMP_)
+#define _SYSTOOL_BMP_
+
+#include "..\INC\systbbmp.inc"
+
+SYSTOOLBMP_SETUP_UCS_N        BITMAP "..\IMAGES\ucs_n.bmp"
+SYSTOOLBMP_SETUP_UCS_H        BITMAP "..\IMAGES\ucs_h.bmp"
+
+SYSTOOLBMP_SHIFT000_N         BITMAP "..\IMAGES\shift_n.bmp"
+SYSTOOLBMP_SHIFT000_H         BITMAP "..\IMAGES\shift_h.bmp"
+
+SYSTOOLBMP_SCALE_VIEW_DOWN_N  BITMAP "..\IMAGES\scdown_n.bmp"
+SYSTOOLBMP_SCALE_VIEW_DOWN_H  BITMAP "..\IMAGES\scdown_h.bmp"
+
+SYSTOOLBMP_SCALE_VIEW_UP_N    BITMAP "..\IMAGES\scup_n.bmp"
+SYSTOOLBMP_SCALE_VIEW_UP_H    BITMAP "..\IMAGES\scup_h.bmp"
+
+SYSTOOLBMP_FIT_TO_ZOOM_N      BITMAP "..\IMAGES\fzoom_n.bmp"
+SYSTOOLBMP_FIT_TO_ZOOM_H      BITMAP "..\IMAGES\fzoom_h.bmp"
+
+SYSTOOLBMP_FIT_TO_WINDOW_N    BITMAP "..\IMAGES\wzoom_n.bmp"
+SYSTOOLBMP_FIT_TO_WINDOW_H    BITMAP "..\IMAGES\wzoom_h.bmp"
+
+SYSTOOLBMP_HOLD_N             BITMAP "..\IMAGES\hold_n.bmp"
+SYSTOOLBMP_HOLD_H             BITMAP "..\IMAGES\hold_h.bmp"
+
+SYSTOOLBMP_FETCH_N            BITMAP "..\IMAGES\fetch_n.bmp"
+SYSTOOLBMP_FETCH_H            BITMAP "..\IMAGES\fetch_h.bmp"
+
+
+SYSTOOLBMP_CREATE_N           BITMAP "..\IMAGES\cre_n.bmp"
+SYSTOOLBMP_CREATE_H           BITMAP "..\IMAGES\cre_h.bmp"
+
+SYSTOOLBMP_MOVE_N             BITMAP "..\IMAGES\move_n.bmp"
+SYSTOOLBMP_MOVE_H             BITMAP "..\IMAGES\move_h.bmp"
+
+SYSTOOLBMP_ROTATE_N           BITMAP "..\IMAGES\rotate_n.bmp"
+SYSTOOLBMP_ROTATE_H           BITMAP "..\IMAGES\rotate_h.bmp"
+
+SYSTOOLBMP_SC2D_N             BITMAP "..\IMAGES\sc2d_n.bmp"
+SYSTOOLBMP_SC2D_H             BITMAP "..\IMAGES\sc2d_h.bmp"
+
+SYSTOOLBMP_SC3D_N             BITMAP "..\IMAGES\sc3d_n.bmp"
+SYSTOOLBMP_SC3D_H             BITMAP "..\IMAGES\sc3d_h.bmp"
+
+SYSTOOLBMP_DELETE_N           BITMAP "..\IMAGES\del_n.bmp"
+SYSTOOLBMP_DELETE_H           BITMAP "..\IMAGES\del_h.bmp"
+
+SYSTOOLBMP_SELECT_N           BITMAP "..\IMAGES\select_n.bmp"
+SYSTOOLBMP_SELECT_H           BITMAP "..\IMAGES\select_h.bmp"
+
+SYSTOOLBMP_SELECT_WINDOW_N    BITMAP "..\IMAGES\selwin_n.bmp"
+SYSTOOLBMP_SELECT_WINDOW_H    BITMAP "..\IMAGES\selwin_h.bmp"
+
+SYSTOOLBMP_INVERT_SELMODE_N   BITMAP "..\IMAGES\invert_n.bmp"
+SYSTOOLBMP_INVERT_SELMODE_H   BITMAP "..\IMAGES\invert_h.bmp"
+
+SYSTOOLBMP_COPY_N             BITMAP "..\IMAGES\copy_n.bmp"
+SYSTOOLBMP_COPY_H             BITMAP "..\IMAGES\copy_h.bmp"
+
+SYSTOOLBMP_CUT_N              BITMAP "..\IMAGES\cut_n.bmp"
+SYSTOOLBMP_CUT_H              BITMAP "..\IMAGES\cut_h.bmp"
+
+SYSTOOLBMP_PASTE_N            BITMAP "..\IMAGES\paste_n.bmp"
+SYSTOOLBMP_PASTE_H            BITMAP "..\IMAGES\paste_h.bmp"
+
+SYSTOOLBMP_CONECT_N           BITMAP "..\IMAGES\conect_n.bmp"
+SYSTOOLBMP_CONECT_H           BITMAP "..\IMAGES\conect_h.bmp"
+
+SYSTOOLBMP_GROUP_N            BITMAP "..\IMAGES\group_n.bmp"
+SYSTOOLBMP_GROUP_H            BITMAP "..\IMAGES\group_h.bmp"
+
+SYSTOOLBMP_USE_BASEUCS_N      BITMAP "..\IMAGES\bucs_n.bmp"
+SYSTOOLBMP_USE_BASEUCS_H      BITMAP "..\IMAGES\bucs_h.bmp"
+
+#endif

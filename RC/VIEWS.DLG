@@ -1,0 +1,56 @@
+#include "..\INC\dlg.inc"
+#include "..\INC\viewsbmp.inc"
+#include <bwcc.h>
+
+VBMP_N_DS_FullWin BITMAP "..\IMAGES\r1n.bmp"
+VBMP_H_DS_FullWin BITMAP "..\IMAGES\r1h.bmp"
+
+VBMP_N_DS_HalfVert BITMAP "..\IMAGES\r2n.bmp"
+VBMP_H_DS_HalfVert BITMAP "..\IMAGES\r2h.bmp"
+
+VBMP_N_DS_HalfHor BITMAP "..\IMAGES\r3n.bmp"
+VBMP_H_DS_HalfHor BITMAP "..\IMAGES\r3h.bmp"
+
+VBMP_N_DS_4 BITMAP "..\IMAGES\r4n.bmp"
+VBMP_H_DS_4 BITMAP "..\IMAGES\r4h.bmp"
+
+VBMP_N_DS_HalfVertAndLeftHor BITMAP "..\IMAGES\r5n.bmp"
+VBMP_H_DS_HalfVertAndLeftHor BITMAP "..\IMAGES\r5h.bmp"
+
+VBMP_N_DS_HalfHorAndDownVert BITMAP "..\IMAGES\r6n.bmp"
+VBMP_H_DS_HalfHorAndDownVert BITMAP "..\IMAGES\r6h.bmp"
+
+VBMP_N_DS_HalfVertAndRightHor BITMAP "..\IMAGES\r7n.bmp"
+VBMP_H_DS_HalfVertAndRightHor BITMAP "..\IMAGES\r7h.bmp"
+
+VBMP_N_DS_HalfHorAndUpVert BITMAP "..\IMAGES\r8n.bmp"
+VBMP_H_DS_HalfHorAndUpVert BITMAP "..\IMAGES\r8h.bmp"
+
+VBMP_N_DS_3Vert BITMAP "..\IMAGES\r9n.bmp"
+VBMP_H_DS_3Vert BITMAP "..\IMAGES\r9h.bmp"
+
+VBMP_N_DS_3Hor BITMAP "..\IMAGES\r10n.bmp"
+VBMP_H_DS_3Hor BITMAP "..\IMAGES\r10h.bmp"
+
+VBMP_N_DS_FullAndLeft3 BITMAP "..\IMAGES\r11n.bmp"
+VBMP_H_DS_FullAndLeft3 BITMAP "..\IMAGES\r11h.bmp"
+
+VBMP_N_DS_FullAndRight3 BITMAP "..\IMAGES\r12n.bmp"
+VBMP_H_DS_FullAndRight3 BITMAP "..\IMAGES\r12h.bmp"
+
+
+DlgViewsDiv DIALOG  DISCARDABLE LOADONCALL PURE MOVEABLE 27, 25, 264, 203
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+//CLASS "BorDlg"
+CLASS "3DW:VIEWDLG_WINDOW"
+CAPTION "Select  Views"
+FONT 8, "Helv"
+BEGIN
+	//CONTROL "&Ok", IDOK, "BorBtn", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 24, 171, 36, 24
+	//CONTROL "&Cancel", IDCANCEL, "BorBtn", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 103, 171, 36, 24
+	//CONTROL "", 103, "BorShade", BSS_HDIP | WS_CHILD | WS_VISIBLE, 6, 162, 112, 3
+	//CONTROL "&Use as default", ID_CHECK_DEF, "BorCheck", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 170, 63, 11
+	//CONTROL "&Init always", ID_CHECK_INIT, "BorCheck", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 174, 185, 63, 10
+	//CONTROL "", ID_CHECK_GRP, "BorShade", 1 | WS_CHILD | WS_VISIBLE, 167, 167, 74, 30
+END
+

@@ -1,0 +1,11 @@
+#if !defined(_ALIGNDLG_INC_)
+#define _ALIGNDLG_INC_
+
+#define  ALIGNDLG_IDALIGMENT_ONLY         104
+#define  ALIGNDLG_IDALIGMENT_AND_CONNECT  105
+
+#define  ALIGNDLG_IDCHECK_FORWARD         102
+#define  ALIGNDLG_IDCHECK_BACKWARD        103
+#define  ALIGNDLG_IDNORMALGROUP           101
+
+#endif

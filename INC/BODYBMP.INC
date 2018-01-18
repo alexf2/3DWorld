@@ -1,0 +1,26 @@
+#if !defined(_BODY_BMP_INC_)
+#define _BODY_BMP_INC_
+
+#define BODYBMP_NUMB 5
+
+#define BODYBMP_FIRST_HANDL_N  270
+#define BODYBMPL_FIRST_HANDL_H 290
+
+
+#define BODYBMP_CYLINDER_N	   (BODYBMP_FIRST_HANDL_N + 1)
+#define BODYBMP_CYLINDER_H         (BODYBMPL_FIRST_HANDL_H + 1)
+
+#define BODYBMP_CONE_N	           (BODYBMP_FIRST_HANDL_N + 2)
+#define BODYBMP_CONE_H             (BODYBMPL_FIRST_HANDL_H + 2)
+
+#define BODYBMP_SPHERE_N	   (BODYBMP_FIRST_HANDL_N + 3)
+#define BODYBMP_SPHERE_H           (BODYBMPL_FIRST_HANDL_H + 3)
+
+#define BODYBMP_TORUS_N	           (BODYBMP_FIRST_HANDL_N + 4)
+#define BODYBMP_TORUS_H            (BODYBMPL_FIRST_HANDL_H + 4)
+
+#define BODYBMP_TUBE_N	           (BODYBMP_FIRST_HANDL_N + 5)
+#define BODYBMP_TUBE_H             (BODYBMPL_FIRST_HANDL_H + 5)
+
+
+#endif

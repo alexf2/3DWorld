@@ -1,0 +1,27 @@
+#if !defined(_BKGNDDLG_BMP_)
+#define _BKGNDDLG_BMP_
+
+#include "..\INC\bkgnddlg.inc"
+
+ID_BKGND_BMP_UP_N   BITMAP "..\IMAGES\aup_n.bmp"
+ID_BKGND_BMP_UP_S   BITMAP "..\IMAGES\aup_s.bmp"
+ID_BKGND_BMP_UP_H   BITMAP "..\IMAGES\aup_h.bmp"
+
+ID_BKGND_BMP_DOWN_N   BITMAP "..\IMAGES\adn_n.bmp"
+ID_BKGND_BMP_DOWN_S   BITMAP "..\IMAGES\adn_s.bmp"
+ID_BKGND_BMP_DOWN_H   BITMAP "..\IMAGES\adn_h.bmp"
+
+ID_BKGND_BMP_LEFT_N   BITMAP "..\IMAGES\al_n.bmp"
+ID_BKGND_BMP_LEFT_S   BITMAP "..\IMAGES\al_s.bmp"
+ID_BKGND_BMP_LEFT_H   BITMAP "..\IMAGES\al_h.bmp"
+
+ID_BKGND_BMP_RIGHT_N   BITMAP "..\IMAGES\ar_n.bmp"
+ID_BKGND_BMP_RIGHT_S   BITMAP "..\IMAGES\ar_s.bmp"
+ID_BKGND_BMP_RIGHT_H   BITMAP "..\IMAGES\ar_h.bmp"
+
+ID_BKGND_BMP_CENT_N   BITMAP "..\IMAGES\cent_n.bmp"
+ID_BKGND_BMP_CENT_S   BITMAP "..\IMAGES\cent_s.bmp"
+ID_BKGND_BMP_CENT_H   BITMAP "..\IMAGES\cent_h.bmp"
+
+
+#endif

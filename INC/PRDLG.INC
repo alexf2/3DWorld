@@ -1,0 +1,31 @@
+#if !defined(_PRENDER_INC_)
+#define _PRENDER_INC_
+
+#define ID_PRDLG_AD_RGB_R_INPUT      101
+#define ID_PRDLG_AD_RGB_G_INPUT      102
+#define ID_PRDLG_AD_RGB_B_INPUT      103
+#define ID_PRDLG_AD_RGB_R_SCROLL     104
+#define ID_PRDLG_AD_RGB_G_SCROLL     105
+#define ID_PRDLG_AD_RGB_B_SCROLL     106
+#define ID_PRDLG_AD_RGB_MIX          107
+
+#define ID_PRDLG_IN_RGB_R_INPUT      108
+#define ID_PRDLG_IN_RGB_G_INPUT      109
+#define ID_PRDLG_IN_RGB_B_INPUT      110
+#define ID_PRDLG_IN_RGB_R_SCROLL     111
+#define ID_PRDLG_IN_RGB_G_SCROLL     112
+#define ID_PRDLG_IN_RGB_B_SCROLL     113
+#define ID_PRDLG_IN_RGB_R_TXT        114
+#define ID_PRDLG_IN_RGB_G_TXT        115
+#define ID_PRDLG_IN_RGB_B_TXT        116
+#define ID_PRDLG_IN_RGB_MIX          117
+
+#define ID_PRDLG_RADIO_RAYTRACE      118
+#define ID_PRDLG_RADIO_STRSCANZ      119
+
+#define ID_PRDLG_CHECK_MARKINTERSECT 120
+
+#define ID_PRDLG_GRP_METHOD          121
+#define ID_PRDLG_GRP_INTERSECT       122
+
+#endif

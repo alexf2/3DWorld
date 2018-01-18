@@ -1,0 +1,12 @@
+#if !defined(_ABOUTDLG_BMP_)
+#define _ABOUTDLG_BMP_
+
+#include "..\INC\aboutbmp.inc"
+
+ABOUTDLG_BMP_TM_N   BITMAP "..\IMAGES\tm_n.bmp"
+ABOUTDLG_BMP_TM_S   BITMAP "..\IMAGES\tm_s.bmp"
+ABOUTDLG_BMP_TM_H   BITMAP "..\IMAGES\tm_h.bmp"
+
+#endif
+
+

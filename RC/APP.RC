@@ -1,0 +1,86 @@
+
+#include "..\INC\icon.inc"
+#include "..\INC\errors.inc"
+#include "..\INC\mdicurs.inc"
+#include "..\INC\dlg.inc"
+
+
+#include "str.rc"
+#include "strings.rc"
+#include "accel.rc"
+#include "menu.rc"
+#include "bmp.rc"
+#include "systbbmp.rc"
+#include "bpdlgbmp.rc"
+#include "medbmp.rc"
+#include "io_em.rc"
+#include "mdchbmp.rc"
+#include "aboutbmp.rc"
+#include "bkgndbmp.rc"
+#include "hilitedl.rc"
+
+#include "about.dlg"
+#include "filedial.dlg"
+#include "ync.dlg"
+#include "views.dlg"
+#include "grext.dlg"
+#include "body.dlg"
+#include "info.dlg"
+#include "progr.dlg"
+#include "bp.dlg"
+#include "medium.dlg"
+#include "align.dlg"
+#include "ambient.dlg"
+#include "prender.dlg"
+#include "isdlg.dlg"
+#include "bkgnd.dlg"
+#include "omni.dlg"
+#include "hilite.dlg"
+#include "photo.dlg"
+#include "smoth.dlg"
+#include "noisy.dlg"
+
+_3DW_ICON  ICON LOADONCALL MOVEABLE PURE DISCARDABLE
+		..\ICO\3dw.ico
+
+_MDICH_ICON  ICON LOADONCALL MOVEABLE PURE DISCARDABLE
+		..\ICO\mdich.ico
+
+
+
+CSR_CreCylinder  CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\sylind.cur
+
+CSR_ShiftUCS     CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\shift.cur
+
+CSR_Cone         CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\cone.cur
+
+CSR_Sphere	 CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\sphere.cur
+
+CSR_Torus	 CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\torus.cur
+
+CSR_Tube	 CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\tube.cur
+
+CSR_GetWindow    CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\win.cur
+
+CSR_SelectObj    CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\select.cur
+
+CSR_GetPoint     CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\point.cur
+
+CSR_OT_Disabled  CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\disbl.cur
+
+CSR_OT_Hand      CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\hand.cur
+
+CSR_Omni         CURSOR LOADONCALL MOVEABLE PURE DISCARDABLE
+		 ..\CUR\omni.cur
+

@@ -1,0 +1,15 @@
+#if !defined(_MEDDLG_BITMAP_BMP_)
+#define _MEDDLG_BITMAP_BMP_
+
+#include "..\INC\medbmp.inc"
+
+MEDDLG_ADD_N                  BITMAP  "..\IMAGES\add_n.bmp"
+MEDDLG_ADD_H                  BITMAP  "..\IMAGES\add_h.bmp"
+MEDDLG_ADD_S                  BITMAP  "..\IMAGES\add_s.bmp"
+
+MEDDLG_DELETE_N               BITMAP  "..\IMAGES\delete_n.bmp"
+MEDDLG_DELETE_H               BITMAP  "..\IMAGES\delete_h.bmp"
+MEDDLG_DELETE_S               BITMAP  "..\IMAGES\delete_s.bmp"
+
+
+#endif
