@@ -1,5 +1,7 @@
 ## 3DWorld - система моделирования и визуализации трёхмерных фото-реалистических сцен в среде MS Windows 3.1
 
+![3DWorld](./demo-img/3dw_scr.PNG "3DWorld")
+
 [Полная документация](./Doc/MP1.DOC)<br/>
 [Исполняемые файлы Win16 и примеры 3D-сцен](https://github.com/alexf2/3DWorld/releases/download/Release1/3DW_exe.zip)
 >Для запуска использовать 3dw.exe. В 32-х или 64-х разрядных средах требуется наличие WOW. Последние системы, где WOW есть по умолчанию, это Win XP и WIn 7. В Windows 10 можно разрешить NTVDM: [Enabling NTVDM in Windows 10](https://www.groovypost.com/howto/enable-16-bit-application-support-windows-10/).
